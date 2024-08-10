@@ -1,0 +1,92 @@
+.sponsorship {
+    padding: 78.5px 70px;
+    .sponsorship-header,
+    .sponsorship-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .sponsorship-title,
+        .sponsorship-subtitle {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .sponsorship-description {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1rem;
+        }
+    }
+
+    .sponsorship-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #e0f6ff;
+        }
+
+        thead th:first-child {
+            border-top-left-radius: 10px;
+        }
+
+        thead th:last-child {
+            border-top-right-radius: 10px;
+        }
+
+        tbody tr:last-child td:first-child {
+            border-bottom-left-radius: 10px;
+        }
+
+        tbody tr:last-child td:last-child {
+            border-bottom-right-radius: 10px;
+        }
+
+        a.sponsor-button {
+            display: inline-block;
+            padding: 6px 18px;
+            background-color: #518bbb;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 40px;
+            text-align: center;
+
+            &:hover {
+                background-color: #518bbb;
+                color: #fff;
+            }
+        }
+
+        a.support-button {
+            display: inline-block;
+            padding: 6px 18px;
+            background-color: #fff;
+            color: #518bbb;
+            text-decoration: none;
+            border-radius: 40px;
+            text-align: center;
+            border: 1px solid #518bbb;
+
+            &:hover {
+                background-color: #518bbb;
+                color: #fff;
+            }
+        }
+
+        &.corporate-sponsorship {
+            tbody tr:last-child {
+                background-color: #518bbb;
+                color: #fff;
+            }
+        }
+    }
+}

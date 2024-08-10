@@ -1,0 +1,59 @@
+.close {
+     padding: 78.5px 70px;
+    .close-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .close-title {
+            color: #336913;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .close-description {
+            font-size: 1rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .close-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #336913;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+
+            &:hover {
+                background-color: darken(#336913, 10%);
+            }
+        }
+    }
+
+    > div:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        img {
+            &:nth-child(1),
+            &:nth-child(5) {
+                height: 200px;
+            }
+
+            &:nth-child(2),
+            &:nth-child(4) {
+                height: 150px;
+                margin: 0 10px;
+            }
+
+            &:nth-child(3) {
+                height: 100px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
