@@ -1,91 +1,124 @@
 .sponsorship {
     padding: 78.5px 70px;
-    .sponsorship-header,
-    .sponsorship-content {
+
+    .sponsorship-header {
+        margin: 0 200px;
+        padding: 0 92px;
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        .sponsorship-title,
-        .sponsorship-subtitle {
+        .sponsorship-title {
             text-align: center;
-            margin-bottom: 20px;
+            font-size: 40px;
+            font-weight: 700;
+            color: #112d63;
         }
-
         .sponsorship-description {
             text-align: center;
-            margin-bottom: 40px;
-            font-size: 1rem;
+            font-size: 18px;
+            font-weight: 300;
+            color: #112d63;
         }
     }
 
-    .sponsorship-table {
-        width: 100%;
-        border-collapse: separate;
-        border-spacing: 0;
+    .sponsorship-package {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        .sponsorship-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .sponsorship-table {
+                width: 100%;
+                border-collapse: separate;
+                border-spacing: 0;
+                border: 1px solid #e0f6ff;
+                background-color: #f8fdff;
+                border-radius: 10px;
 
-        th,
-        td {
-            padding: 10px;
-            text-align: center;
-            border: 1px solid #ccc;
-        }
+                .last-row {
+                    background-color: #518bbb;
+                    color: #fff;
+                }
+                span {
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-align: left;
+                }
 
-        th {
-            background-color: #e0f6ff;
-        }
+                th,
+                td {
+                    padding: 20.78px 16.6px;
+                    text-align: center;
+                    vertical-align: middle;
+                }
 
-        thead th:first-child {
-            border-top-left-radius: 10px;
-        }
+                th {
+                    padding: 20.78px 16.6px;
+                    background-color: #e0f6ff;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                tbody td:first-child {
+                    text-align: left;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-right: 10px;
+                    }
+                }
 
-        thead th:last-child {
-            border-top-right-radius: 10px;
-        }
+                thead th:first-child {
+                    border-top-left-radius: 10px;
+                }
 
-        tbody tr:last-child td:first-child {
-            border-bottom-left-radius: 10px;
-        }
+                thead th:last-child {
+                    border-top-right-radius: 10px;
+                }
 
-        tbody tr:last-child td:last-child {
-            border-bottom-right-radius: 10px;
-        }
+                tbody tr:last-child td:first-child {
+                    border-bottom-left-radius: 10px;
+                }
 
-        a.sponsor-button {
-            display: inline-block;
-            padding: 6px 18px;
-            background-color: #518bbb;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 40px;
-            text-align: center;
+                tbody tr:last-child td:last-child {
+                    border-bottom-right-radius: 10px;
+                }
+                img {
+                    width: 27px;
+                    object-fit: contain;
+                }
 
-            &:hover {
-                background-color: #518bbb;
-                color: #fff;
-            }
-        }
+                a.sponsor-button {
+                    display: inline-block;
+                    padding: 6px 18px;
+                    background-color: #518bbb;
+                    color: #fff;
+                    text-decoration: none;
+                    border-radius: 40px;
+                    text-align: center;
 
-        a.support-button {
-            display: inline-block;
-            padding: 6px 18px;
-            background-color: #fff;
-            color: #518bbb;
-            text-decoration: none;
-            border-radius: 40px;
-            text-align: center;
-            border: 1px solid #518bbb;
+                    &:hover {
+                        background-color: #518bbb;
+                        color: #fff;
+                    }
+                }
 
-            &:hover {
-                background-color: #518bbb;
-                color: #fff;
-            }
-        }
+                a.support-button {
+                    display: inline-block;
+                    padding: 6px 18px;
+                    background-color: #fff;
+                    color: #518bbb;
+                    text-decoration: none;
+                    border-radius: 40px;
+                    text-align: center;
+                    border: 1px solid #518bbb;
 
-        &.corporate-sponsorship {
-            tbody tr:last-child {
-                background-color: #518bbb;
-                color: #fff;
+                    &:hover {
+                        background-color: #eeee;
+                    }
+                }
             }
         }
     }

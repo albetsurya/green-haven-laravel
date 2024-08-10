@@ -1,154 +1,277 @@
 .main {
-    padding: 78.5px 70px;
+    margin-top: 32px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        .main-hero {
+            width: 100%;
+            .main-content {
+                padding: 50px 70px;
+                .main-header {
+                    align-items: left;
+                    .main-subtitle {
+                        width: 232px;
+                        padding: 10px 25px;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: -0.5px;
+                        font-weight: 400;
+                        border: 1px solid #dddddd;
+                        border-radius: 40px;
+                        h3 {
+                            text-align: center;
+                        }
+                    }
+                    .main-title {
+                        text-align: left;
+                        font-size: 40px;
+                        line-height: 50px;
+                        letter-spacing: -0.5%;
+                        font-weight: 700;
+                    }
+                }
 
-    .main-hero {
-        width: 100%;
-        max-width: 1200px;
-        text-align: center;
-        color: #000000;
-        padding: 60px 30px;
-        border-radius: 10px;
+                .hero-scroll {
+                    display: flex;
+                    align-items: left;
+                    justify-content: center;
+                    flex-direction: column;
+                    border: 1px solid #eeeeee;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+                    border-radius: 20px;
+                    padding: 29px 35px;
+                    .scroll-container {
+                        width: 589px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
 
-        .main-subtitle {
-            font-size: 18px;
-            font-weight: 400;
-            margin-bottom: 10px;
+                        .scroll-item {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 11px;
+
+                            img {
+                                width: 40px;
+                                height: auto;
+                            }
+
+                            p {
+                                margin: 0;
+                                font-size: 30px;
+                                font-weight: 700;
+                                line-height: 45px;
+                                text-align: center;
+                                color: #336913;
+                                span {
+                                    margin: 0;
+                                    font-size: 18px;
+                                    line-height: 24px;
+                                    font-weight: 500;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+
+                    button {
+                        padding: 10px 25px;
+                        width: 210px;
+                        background-color: #336913;
+                        border: none;
+                        color: #ffffff;
+                        font-weight: 600;
+                        line-height: 22.5px;
+                        letter-spacing: -0.5%;
+                        font-size: 15px;
+                        border-radius: 40px;
+                        cursor: pointer;
+                        transition: background-color 0.3s;
+
+                        &:hover {
+                            background-color: #29540f;
+                        }
+                    }
+                    .hero-scroll-line {
+                        display: flex;
+                        width: 100%;
+                        height: 15px;
+                        border-radius: 900px;
+                        overflow: hidden;
+
+                        .scroll-active {
+                            width: 200px;
+                            background-color: #336913;
+                            border-radius: 900px;
+                        }
+
+                        .scroll-inactive {
+                            flex-grow: 1;
+                            background-color: #eff7ef;
+                        }
+                    }
+                }
+            }
+            .hero-image {
+                width: 100%;
+                height: auto;
+            }
         }
 
-        .main-title {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 30px;
-        }
-
-        .hero-scroll {
+        .leaderboard {
             display: flex;
-            align-items: center;
-            justify-content: center;
             flex-direction: column;
+            gap: 28px;
+            width: 100%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            padding: 32px 42px;
+            border-left: 1px solid #ddd;
 
-            .scroll-container {
+            .leaderboard-header {
                 display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                margin-bottom: 20px;
-                gap: 20px;
-
-                .scroll-item {
+                flex-direction: column;
+                gap: 10px;
+                .leaderboard-title {
+                    font-size: 32px;
+                    font-weight: 700;
+                    text-align: left;
+                    color: #000000;
+                }
+                .leaderboard-tabs {
                     display: flex;
                     align-items: center;
-                    justify-content: center;
                     gap: 10px;
 
-                    img {
-                        width: 40px;
-                        height: auto;
-                    }
+                    .tab-item {
+                        cursor: pointer;
+                        font-size: 12px;
+                        font-weight: 600;
+                        text-align: center;
+                        line-height: none;
+                        border-radius: 40px;
+                        padding: 0 30px;
+                        border: 1px solid #888888;
+                        color: #888888;
 
-                    p {
-                        margin: 0;
-                        font-size: 18px;
-                        font-weight: 500;
+                        &.active {
+                            border-color: #2d9444;
+                            color: #2d9444;
+                        }
                     }
                 }
             }
 
-            button {
-                padding: 12px 24px;
-                width: 100%;
-                background-color: #336913;
-                border: none;
-                color: #ffffff;
-                font-size: 16px;
-                border-radius: 40px;
-                cursor: pointer;
-                transition: background-color 0.3s;
+            .leaderboard-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
 
-                &:hover {
-                    background-color: #29540f;
+                .leaderboard-item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #eeeeee;
+
+                    &:last-child {
+                        border-bottom: none;
+                    }
+
+                    .leaderboard-logo {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+
+                        img {
+                            width: 60px;
+                            height: auto;
+                        }
+
+                        h2 {
+                            font-size: 18px;
+                            font-weight: 700;
+                            color: #ffffff;
+                            width: 48px;
+                            height: 48px;
+                            text-align: center;
+                            line-height: 48px;
+                            border-radius: 70px;
+
+                            &.step-1,
+                            &.step-2,
+                            &.step-3 {
+                                background-color: #336913;
+                            }
+
+                            &.step-4 {
+                                background-color: #85bb50;
+                            }
+
+                            &.step-5,
+                            &.step-6 {
+                                background-color: #a7cc05;
+                            }
+                        }
+                    }
+                    .leaderboard-name {
+                        flex-grow: 1;
+                        margin-left: 15px;
+
+                        p {
+                            font-size: 12px;
+                            font-weight: 400;
+                            margin: 0;
+                        }
+
+                        span {
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: #000000;
+                        }
+                    }
+
+                    .leaderboard-icon {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        img {
+                            width: 30px;
+                            height: auto;
+                        }
+
+                        p {
+                            font-size: 22.5px;
+                            font-weight: 700;
+                            color: #336913;
+                            line-height: 33.75px;
+                        }
+                        span {
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 18px;
+                            color: #336913;
+                        }
+                    }
                 }
-            }
-
-            .hero-image {
-                margin-top: 40px;
-                max-width: 100%;
-                height: auto;
-                border-radius: 10px;
             }
         }
     }
-
-    .leaderboard {
-        width: 100%;
-        max-width: 1200px;
-        background-color: #ffffff;
-        padding: 40px 30px;
-        border-radius: 10px;
-        margin-top: 40px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-
-        .leaderboard-title {
-            font-size: 24px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            color: #333;
-            text-align: center;
-        }
-
-        .leaderboard-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-
-            .leaderboard-item {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 15px 0;
-                border-bottom: 1px solid #ddd;
-
-                &:last-child {
-                    border-bottom: none;
-                }
-
-                .leaderboard-logo {
-                    display: flex;
-                    align-items: center;
-                    gap: 15px;
-
-                    img {
-                        width: 40px;
-                        height: auto;
-                    }
-
-                    span {
-                        font-size: 18px;
-                        font-weight: 500;
-                        color: #333;
-                    }
-                }
-
-                div {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-
-                    img {
-                        width: 20px;
-                        height: auto;
-                    }
-
-                    span {
-                        font-size: 16px;
-                        font-weight: 400;
-                        color: #666;
-                    }
-                }
-            }
+    .logo-clients {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 44px;
+        gap: 70px;
+        img {
+            width: 150px;
+            height: auto;
         }
     }
 }

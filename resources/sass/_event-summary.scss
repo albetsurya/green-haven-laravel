@@ -1,5 +1,6 @@
 .event-summary {
-    padding: 78.5px 70px;
+    background-color: #f5faf8;
+    padding: 78px 70px;
     display: flex;
     flex-direction: column;
     .event-header {
@@ -7,20 +8,24 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-bottom: 40px;
 
         .event-title {
-            font-size: 2rem;
+            font-size: 40px;
+            font-weight: 700;
+            color: #336913;
             margin-bottom: 10px;
         }
 
         p {
-            font-size: 1rem;
-            max-width: 600px;
+            font-size: 18px;
+            max-width: 700px;
+            font-weight: 300;
         }
     }
 
     .event-content {
+        margin-top: 50px;
+        padding: 56px 50px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -32,28 +37,30 @@
 
             .event-date {
                 color: #336913;
-                font-size: 1.5rem;
-                margin-bottom: 10px;
+                font-size: 27px;
+                font-weight: 600;
             }
             .event-time {
                 color: #000000;
-                font-size: 1.5rem;
+                font-size: 30px;
+                font-weight: 700;
                 margin-bottom: 10px;
             }
 
             .event-description {
-                margin-bottom: 20px;
-                font-size: 1rem;
+                margin-bottom: 48px;
+                font-size: 16px;
+                font-weight: 300;
+                width: 555px;
             }
 
             .event-link {
-                display: inline-block;
-                padding: 10px 20px;
+                width: 210px;
                 background-color: #336913;
                 color: #fff;
-                text-decoration: none;
                 border-radius: 40px;
                 text-align: center;
+                border: none;
 
                 &:hover {
                     background-color: darken(#336913, 10%);
@@ -74,25 +81,31 @@
     .event-tabs {
         display: flex;
         flex-direction: row;
+        gap: 33px;
 
         .tab-item {
-            padding: 10px;
-            border-top: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 6px;
+            padding-top: 25px;
+            border-top: 4.18px solid #dddddd;
             cursor: pointer;
 
             h2 {
                 margin: 0;
-                font-size: 1.5rem;
+                font-size: 25px;
+                font-weight: 900;
             }
 
             p {
-                margin: 5px 0 0;
-                font-size: 1rem;
+                font-size: 18.8px;
+                font-weight: 300;
             }
         }
 
         .tab-item.active {
-            border-top: 2px solid #336913;
+            border-top: 4.18px solid #2d9444;
         }
     }
 }
