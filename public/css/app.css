@@ -136,7 +136,11 @@ header .navbar button:hover {
   font-weight: 500;
   text-align: center;
 }
-.main .main-container .main-hero .main-content .hero-scroll button {
+.main .main-container .main-hero .main-content .hero-scroll .scroll-container .scroll-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   padding: 10px 25px;
   width: 210px;
   background-color: #336913;
@@ -150,8 +154,12 @@ header .navbar button:hover {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.main .main-container .main-hero .main-content .hero-scroll button:hover {
+.main .main-container .main-hero .main-content .hero-scroll .scroll-container .scroll-button:hover {
   background-color: #29540f;
+}
+.main .main-container .main-hero .main-content .hero-scroll .scroll-container .scroll-button img {
+  width: 10px;
+  height: auto;
 }
 .main .main-container .main-hero .main-content .hero-scroll .hero-scroll-line {
   display: flex;

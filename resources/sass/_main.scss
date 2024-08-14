@@ -77,26 +77,35 @@
                                 }
                             }
                         }
-                    }
+                        .scroll-button {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 10px 25px;
+                            width: 210px;
+                            background-color: #336913;
+                            border: none;
+                            color: #ffffff;
+                            font-weight: 600;
+                            line-height: 22.5px;
+                            letter-spacing: -0.5%;
+                            font-size: 15px;
+                            border-radius: 40px;
+                            cursor: pointer;
+                            transition: background-color 0.3s;
 
-                    button {
-                        padding: 10px 25px;
-                        width: 210px;
-                        background-color: #336913;
-                        border: none;
-                        color: #ffffff;
-                        font-weight: 600;
-                        line-height: 22.5px;
-                        letter-spacing: -0.5%;
-                        font-size: 15px;
-                        border-radius: 40px;
-                        cursor: pointer;
-                        transition: background-color 0.3s;
+                            &:hover {
+                                background-color: #29540f;
+                            }
 
-                        &:hover {
-                            background-color: #29540f;
+                            img {
+                                width: 10px;
+                                height: auto;
+                            }
                         }
                     }
+
                     .hero-scroll-line {
                         display: flex;
                         width: 100%;
