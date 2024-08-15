@@ -142,7 +142,7 @@ header .navbar button:hover {
   align-items: center;
   justify-content: center;
   padding: 10px 25px;
-  width: 210px;
+  width: 230px;
   background-color: #336913;
   border: none;
   color: #ffffff;
@@ -156,10 +156,6 @@ header .navbar button:hover {
 }
 .main .main-container .main-hero .main-content .hero-scroll .scroll-container .scroll-button:hover {
   background-color: #29540f;
-}
-.main .main-container .main-hero .main-content .hero-scroll .scroll-container .scroll-button img {
-  width: 10px;
-  height: auto;
 }
 .main .main-container .main-hero .main-content .hero-scroll .hero-scroll-line {
   display: flex;
@@ -527,6 +523,7 @@ header .navbar button:hover {
 .sponsorship .sponsorship-package .sponsorship-content .sponsorship-table .last-row {
   background-color: #518bbb;
   color: #fff;
+  border-radius: 10px;
 }
 .sponsorship .sponsorship-package .sponsorship-content .sponsorship-table span {
   font-size: 16px;
@@ -584,14 +581,15 @@ header .navbar button:hover {
   color: #fff;
 }
 .sponsorship .sponsorship-package .sponsorship-content .sponsorship-table a.support-button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
   padding: 6px 18px;
   background-color: #fff;
   color: #518bbb;
   text-decoration: none;
   border-radius: 40px;
-  text-align: center;
-  border: 1px solid #518bbb;
 }
 .sponsorship .sponsorship-package .sponsorship-content .sponsorship-table a.support-button:hover {
   background-color: rgba(238, 238, 238, 0.9333333333);
@@ -627,21 +625,25 @@ header .navbar button:hover {
   margin-top: 10px;
 }
 .close .close-header .close-button {
-  display: inline-block;
-  width: 262px;
-  margin-top: 20px;
-  padding: 12px 31px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  width: 230px;
   background-color: #336913;
-  color: #fff;
-  text-decoration: none;
-  font-size: 18.75px;
-  font-weight: 600;
-  border-radius: 70px;
-  text-align: center;
   border: none;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: -0.5%;
+  font-size: 15px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 .close .close-header .close-button:hover {
-  background-color: #1e3e0b;
+  background-color: #29540f;
 }
 .close > div:last-child {
   display: flex;

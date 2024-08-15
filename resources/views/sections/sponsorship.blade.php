@@ -134,45 +134,161 @@
                 <tr>
                     <td>Logo on JCI Banners</td>
                     <td>
-                        <img src="{{ asset('images/checklist1.png') }}" width="25px" height="25px" alt="checklist">
-                        <img src="{{ asset('images/checklist2.png') }}" width="10.63px" height="7.07px"
-                            alt="checklist">
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
                     </td>
-                    <td><img></td>
-                    <td><img></td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
                 </tr>
                 <tr>
                     <td>Considered as Main Sponsor</td>
-                    <td><img></td>
-                    <td><img></td>
-                    <td><img></td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
                 </tr>
                 <tr>
                     <td>Dedicated Stainless Plate</td>
                     <td></td>
-                    <td><img></td>
-                    <td><img></td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
                 </tr>
                 <tr>
                     <td>Report Update on Planted Trees</td>
                     <td></td>
-                    <td><img></td>
-                    <td><img></td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
                 </tr>
                 <tr>
                     <td>Logo on Event Clothibgs</td>
                     <td></td>
                     <td></td>
-                    <td><img></td>
+                    <td>
+                        <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"
+                            viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </td>
                 </tr>
                 <tr class="last-row">
                     <td>Make a Donation</td>
-                    <td><a href="#" class="support-button">Support Our Mission</a></td>
-                    <td><a href="#" class="support-button">Support Our Mission</a></td>
-                    <td><a href="#" class="support-button">Support Our Mission</a></td>
+                    <td><a href="#" class="support-button"><span>Support Our Mission</span>
+                            <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" d="m9 5 7 7-7 7" />
+                            </svg>
+                        </a></td>
+                    <td><a href="#" class="support-button"><span>Support Our Mission</span>
+                            <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" d="m9 5 7 7-7 7" />
+                            </svg>
+                        </a></td>
+                    <td><a href="#" class="support-button"><span>Support Our Mission</span>
+                            <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" d="m9 5 7 7-7 7" />
+                            </svg>
+                        </a></td>
                 </tr>
             </table>
         </div>
     </div>
 
 </div>
+
+
+{{-- <div class="sponsorship">
+    <div class="sponsorship-header">
+        <h1 class="sponsorship-title">Sponsorship Packages</h1>
+        <p class="sponsorship-description">Our sponsorship package offers branding, promotional opportunities, and
+            visibility at our event, ideal for enhancing company presence and community engagement.</p>
+    </div>
+
+    <div class="sponsorship-package">
+        <div class="sponsorship-content">
+            <h1 class="sponsorship-subtitle">Personal Sponsorship Package</h1>
+            <x-sponsorship-table :sponsors="$personalSponsors" />
+        </div>
+
+        <div class="sponsorship-content">
+            <h1 class="sponsorship-subtitle">Corporate Sponsorship Package</h1>
+            <x-corporate-sponsorship-table :sponsors="$corporateSponsors" />
+        </div>
+    </div>
+</div> --}}
+

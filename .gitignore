@@ -17,3 +17,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+SponsorshipController.php
+sponsorship-table.blade.php
+corporate-sponsorship-table.blade.php

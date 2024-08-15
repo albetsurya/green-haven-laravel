@@ -13,8 +13,12 @@
                              <p>5,690<span>/10000 Pohon</span></p>
                          </div>
                          <button href="#" class="scroll-button">Support Our Mission
-                             <img src="{{ asset('images/arrow-right.png') }}" width="6.66px" height="13px"
-                                 alt="arrow-right">
+                             <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true"
+                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                 viewBox="0 0 24 24">
+                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                     stroke-width="2" d="m9 5 7 7-7 7" />
+                             </svg>
                          </button>
                      </div>
                      <div class="hero-scroll-line">
